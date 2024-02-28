@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Willem-Jan Zijderveld &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/willem-jan-zijderveld/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Let&#8217;s write some History</title>
+		<link>/talk/lets-write-some-history/</link>
+		<pubDate>Sat, 12 Mar 2016 00:39:46 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=540</guid>
+		<description><![CDATA[Did you know that you are probably throwing away data every single day? By updating or deleting records from your database you lose information. In this talk I&#8217;m going to explain how Event Sourcing can help you solve this problem and what other benefits you can get from it. We will walk over of the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Did you know that you are probably throwing away data every single day? By updating or deleting records from your database you lose information. In this talk I'm going to explain how Event Sourcing can help you solve this problem and what other benefits you can get from it. We will walk over of the concepts and possible implementations of event sourcing with examples from Qandidate.com.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Did you know that you are probably throwing away data every single day? By updating or deleting records from your database you lose information. In this talk I&#8217;m going to explain how Event Sourcing can help you solve this problem and what other benefits you can get from it. We will walk over of the concepts and possible implementations of event sourcing with examples from Qandidate.com.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:05 by W3 Total Cache -->

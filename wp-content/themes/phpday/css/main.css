@@ -1,0 +1,1275 @@
+/* CSS Document */
+/*
+
+Description: CSS for phpDsy   (November.2011)
+Version: 1.0
+Author: GNV&PARTNERS
+Author URI: http://www.gnvpartners.com/
+*/
+
+
+/*-----------------------------------------------------------------------------------------------
+  Stili Globali
+-----------------------------------------------------------------------------------------------*/
+html{
+	background-color: #f1f0f3;
+
+}
+
+body{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 21px;
+	color: #38435e;
+	background: transparent url(/wp-content/themes/phpday/img/bg_body_internal_drunk.png) repeat-x center 10px;
+}
+body#home{
+	background: transparent url(/wp-content/themes/phpday/img/bg_body_drunk.png) repeat-x center 30px;
+}
+
+input, textarea{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* --------------
+	 Typography
+-----------------*/
+
+
+
+/* uppercase */
+#claim h2, .button, #site_menu ul li, .ribbon{
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4{
+	color: #17213a;
+	font-weight: 800;
+}
+
+
+h1, h2{
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: 900;
+}
+
+h1{
+	border-bottom: 1px solid #e4dad6;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.header_h1{
+	border-bottom: 1px solid #e4dad6;
+	padding-bottom: 20px;
+	margin: 0 10px 15px 10px;
+}
+.header_h1 h1{
+	border: none;
+	margin: 0 20px 0 0;
+	padding: 0;
+	float: left;
+}
+.header_h1 .addthis_toolbox{
+	float: right;
+	padding: 10px 10px 0 10px;
+	background-color: rgba(255,255, 255,.8);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 30px;
+}
+
+
+h2 strong, h3 strong{
+	color: #617cbe;
+}
+
+h3, .package header h4{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.package header h4{
+	margin-bottom: 0;
+}
+
+section > h1, section > h3, section > h4{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+section#intro h3, section#venue h3, section#intro_sponsors h3, h3.subtitle{
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 200;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e4dad6;
+	margin: 0 1% 30px 1%;
+}
+section#intro h3 strong{
+	font-weight: 600;
+	color: #17213a;
+}
+section#venue h3, section#intro_sponsors h3, h3.subtitle{
+	border-bottom: none;
+	margin: 0 1% 30px 1%;
+}
+section#intro_sponsors h3, h3.subtitle{
+	margin-bottom: 15px;
+}
+
+
+
+h4, .vcard .given-name a{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 800;
+	color: #17213a;
+}
+h4 a{
+	color: #617cbe;
+}
+
+.event_edition h4, .call_4_sponsor h4{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 200;
+	color: #617cbe;
+	vertical-align: top;
+	margin-bottom: 5px;
+}
+
+.event_edition {
+    height: 197px;
+}
+
+.call_4_sponsor {
+    margin-top: -11px;
+}
+
+h5, body#home .vcard .given-name a{
+	color: #65699a;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+h6{
+	font-style: italic;
+	color: #777887;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+
+
+strong{
+	font-weight: 800;
+}
+
+
+#venue h1, section#intro_sponsors h1{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.talk_speaker h4{
+	margin-bottom: 25px;
+}
+.talk_speaker .speaker{
+	min-height: 0px;
+}
+
+.talk_speaker .speaker .thumb{
+	margin-bottom: 0px;
+}
+
+/*Links, buttons*/
+
+a{
+	color: #617cbe;
+	text-decoration: none;
+}
+
+
+.button, #lang ul li a, .ribbon{
+	display: inline-block;
+	font-size: 13px;
+	line-height: 14px;
+	font-weight: 800;
+	line-height: 14px;
+	padding: 8px 10px 8px 10px;
+	vertical-align: middle;
+	color: #fff;
+	background-color: #617cbe;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.button:hover{
+	background-color: #17213a;
+}
+
+.button.big{
+	font-size: 18px;
+	line-height: 20px;
+	padding: 15px 20px;
+}
+
+.button.register.big{
+	padding-left: 40px;
+	background-position: 15px center;
+}
+
+.button:hover{
+	background-color: #404361;
+}
+
+.button span.paypal{
+	display: inline-block;
+	height: 14px;
+	width: 51px;
+	text-indent: -99999em;
+	background: transparent url(/wp-content/themes/phpday/img/paypal.png) no-repeat left bottom;
+}
+
+/*general*/
+.separator{
+	width: 98%;
+	margin: 30px 1% 30px 1%;
+	height: 1px;
+	border-bottom: 1px solid #e4dad6;
+	clear: both;
+}
+
+
+/* #site_header */
+#site_header{
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+#site_header ul {
+	margin: 0;
+}
+#site_header ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+}
+
+
+
+#toolbar{
+	background-color: #f5f4f6;
+	padding: 5px 0 5px 0;
+	margin-bottom: 17px;
+}
+#toolbar ul{
+	float: right;
+	color: #696a7b;
+	font-size: 11px;
+}
+
+
+#lang, #past_editions{
+	width: 60px;
+	float: right;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#lang ul li a{
+	padding: 3px 5px;
+	background-color: #cfd0d8;
+}
+#lang ul li a:hover, #lang ul li.selected a{
+	padding: 3px 5px;
+	background-color: #babcc5;
+}
+
+#past_editions{
+	width: 260px;
+	font-style: italic;
+}
+#past_editions a{
+	margin: 0 2px;
+	font-style: normal;
+}
+#past_editions li.selected a{
+	color: #17213a;
+}
+
+
+#site_header h1{
+	display: none;
+}
+a#main_logo{
+	display: block;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	position: absolute;
+	top: 50px;
+}
+a#main_logo img{
+	width: 100%;
+	height: auto;
+}
+
+#site_header .reminder{
+	margin-bottom: 17px;
+	float: right;
+	clear: both;
+	text-align: right;
+}
+#site_header .reminder .button{
+	margin-left: 10px;
+}
+
+#site_menu{
+	width: 57%;
+	margin-right: 1%;
+	float: right;
+	clear: both;
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 0;
+}
+#site_menu ul{
+	margin: 0;
+}
+#site_menu ul li{
+	padding: .8% 2% .8% 0;
+	margin: 0;
+	float: left;
+	width: 22%;
+	text-align: right;
+	border-right: 1px solid rgba(23,33,58,.2);
+}
+
+#site_menu ul li a{
+	color: #17213a;
+	font-weight: 800;
+}
+
+
+
+/**/
+#claim{
+	margin-bottom: 80px;
+}
+
+#claim h2{
+	padding: 20px 0 0 0;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+}
+
+/**/
+#claim .reminder{
+	font-family: 'Open Light', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	line-height: 40px;
+	margin: 0 0 0 0;
+	padding-bottom: 20px;
+	color: #434556;
+}
+#claim .reminder em{
+	color: #3e3f4c;
+}
+
+#claim .reminder .button.big{
+	clear: left;
+}
+
+
+
+/**/
+#social{
+	margin-bottom: 30px;
+	padding: 20px 0 5px 0;
+	border-top: 1px solid #b7ada9;
+	border-bottom: 1px solid #e4dad6;
+}
+#social .centered{
+	width: 450px;
+}
+
+#social h3{
+	font-weight: 200;
+	font-size: 25px;
+}
+
+#social ul{
+ 	width: 240px;
+ 	float: left;
+}
+#social ul li{
+	float: left;
+	list-style-type: none;
+}
+#social ul li:hover{
+	-moz-box-shadow: 0 0 10px rgba(155,176,228,.9);
+	-webkit-box-shadow: 0 0 10px rgba(155,176,228,.9);
+	box-shadow: 0 0 10px rgba(155,176,228,.9);
+}
+#social ul li a{
+	display: block;
+	float: left;
+	text-indent: -99999em;
+	height: 32px;
+	width: 32px;
+
+}
+#social ul li#follow_twitter a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat 0 0;
+}
+#social ul li#follow_fb a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat -50px 0;
+}
+#social ul li#follow_rss a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat -100px 0;
+}
+#social ul li#follow_flickr a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat -150px 0;
+}
+#social ul li#follow_yt a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat -200px 0;
+}
+#social ul li#follow_vimeo a{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_social.png) no-repeat -250px 0;
+}
+
+
+.rss_feed{
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+	line-height: 20px;
+	text-indent: -99999em;
+	background: transparent url(/wp-content/themes/phpday/img/bg_rss_icon.png) no-repeat left top;
+}
+.rss_feed:hover{
+	-moz-box-shadow: 0 0 10px rgba(155,176,228,.9);
+	-webkit-box-shadow: 0 0 10px rgba(155,176,228,.9);
+	box-shadow: 0 0 10px rgba(155,176,228,.9);
+}
+
+/*call_4_paper*/
+.call_4_paper, .call_4_sponsor .inside{
+	padding: 20px;
+	background-color: #f8f7f9;
+	border: 1px solid #e1e3ec;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 1% 30px 1%;
+}
+
+.call_4_paper .text{
+	width: 100%;
+	float: left;
+	font-size: 15px;
+}
+.call_4_paper .button{
+	float: right;
+	margin-top: 12px;
+}
+.call_4_paper h3{
+	margin-bottom: 0px;
+}
+
+.call_4_sponsor .inside{
+	padding: 10px 15px 15px 15px;
+}
+
+/**/
+
+.border_btm, .talk_results, .speaker_bio{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e4dad6;
+}
+
+section{
+	padding: 0;
+	background: none;
+	margin-bottom: 30px;
+}
+
+section#claim{
+	background: none;
+}
+
+section.left{
+	border: 1px solid red;
+	float: left;
+}
+
+section header h3{
+	float: left;
+}
+
+section header nav.paginator, time{
+	float: right;
+	font-style: italic;
+	color: #777887;
+	font-size: 12px;
+	line-height: 25px;
+}
+section header nav.paginator a.browse_prev, section header nav.paginator a.browse_next, #blog nav.paginator a.browse_next, #blog nav.paginator a.browse_prev{
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	text-indent: -99999em;
+	background-color: transparent;
+	background-image: url(/wp-content/themes/phpday/img/sprite_paginator.png);
+	background-repeat: no-repeat;
+	margin-top: 5px;
+}
+section header nav.paginator a.browse_prev, #blog nav.paginator a.browse_prev{
+	background-position: 0 0;
+}
+section header nav.paginator a.browse_prev:hover, #blog nav.paginator a.browse_prev:hover{
+	background-position: 0 -100px;
+}
+
+section header nav.paginator a.browse_next{
+	background-position: 0 -50px;
+}
+section header nav.paginator a.browse_next:hover{
+	background-position: 0 -150px;
+}
+
+
+#blog nav.paginator a.browse_next, #blog nav.paginator a.browse_prev{
+	height: auto;
+	width: auto;
+	text-indent: 0;
+	padding-left: 35px;
+	margin-top: 5px;
+	line-height: 25px;
+}
+
+#blog  nav.paginator a.browse_next{
+	background-position: right -50px;
+	padding-right: 35px;
+	float: right;
+}
+#blog  nav.paginator a.browse_next_hover{
+	background-position: right -150px;
+}
+
+
+
+/**/
+.speaker, .speakers_talk dl, .package{
+	padding: 10px;
+	background: transparent url(/wp-content/themes/phpday/img/bg_speaker.png) repeat;
+	border: 1px solid #dfe2ed;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 115px;
+	margin-bottom: 10px;
+}
+.speaker:hover{
+	background: transparent url(/wp-content/themes/phpday/img/bg_speaker_hover.png) repeat;
+	border-color:#c1c1d1;
+}
+
+.speaker .thumb, .thumb, #map{
+	padding: 1.5%;
+	background-color: #fff;
+	line-height: 0;
+	display: block;
+	float: left;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0,.40);
+	-moz-box-shadow: 0 0 7px rgba(43,39,40,.40);
+	-webkit-box-shadow:  0 0 5px rgba(43,39,40,.40);
+	box-shadow:  0 0 5px rgba(43,39,40,.40);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=180, Strength=4);
+	margin-right: 1%;
+	margin-bottom: 20px;
+}
+.speaker .thumb{
+	width: 21%;
+}
+.speaker .thumb img{
+	width: 100%;
+	height: auto;
+}
+.speaker .text{
+	float: right;
+	width: 73%;
+}
+.speaker .text dl dt, .speaker_header dl dt{
+	font-style: italic;
+	color: #696a7b;
+	font-size: 12px;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+}
+.speaker .text dl dd a, .speaker_header dl dd a{
+	color: #252636;
+}
+
+
+.speaker_header{
+	margin-bottom: 50px;
+}
+.speaker_header h1{
+	width: auto;
+}
+.speaker_header .thumb{
+	padding: .7%;
+	margin-right: 2%;
+}
+
+.speaker_header dl{
+	margin-bottom: 15px;
+	display: block;
+	float: left;
+	width: 60%;
+}
+.speaker_header dl dt{
+	margin-right: 2%;
+}
+
+
+
+/* venue */
+body#home #map{
+	width: 46%;
+	text-align: center;
+    float: left;
+}
+#map{
+	text-align: center;
+	margin: 0 2% 20px 1%;
+	width: 800px;
+	margin: auto;
+	float: none;
+}
+body#home #map{
+	margin: 0 1% 20px 0;
+}
+#map img{
+	width: 100%;
+	height: auto;
+}
+
+
+#venue .vcard{
+	background: transparent url(/wp-content/themes/phpday/img/marker_venue.png) no-repeat left 20px;
+	padding-top: 80px;
+}
+body#home #venue .vcard{
+	background: no-repeat;
+	padding-top: 0;
+}
+
+#venue .button{
+	margin-top: 10px;
+}
+
+#venue h3.subtitle {
+	text-align: center;
+	font-size: 22px;
+}
+
+.vcard{
+	margin-bottom: 20px;
+	float: left;
+}
+body#home .vcard{
+	width: 48%;
+	float: right;
+}
+
+#verona_nord, #verona_sud, #airport, #main_hotel, #bb_1{
+	padding-top: 60px;
+}
+#verona_nord{
+	background: url(/wp-content/themes/phpday/img/marker_route_n.png) no-repeat left top;
+}
+#verona_sud{
+	background: url(/wp-content/themes/phpday/img/marker_route_s.png) no-repeat left top;
+}
+#airport{
+	background: url(/wp-content/themes/phpday/img/marker_airport.png) no-repeat left top;
+}
+#main_hotel{
+	background: transparent url(/wp-content/themes/phpday/img/marker_venue.png) no-repeat left 0;
+}
+#bb_1{
+	background: url(/wp-content/themes/phpday/img/marker_hotel_b.png) no-repeat left top;
+}
+
+
+/* news */
+time{
+	float: none;
+}
+
+.post.excerpt{
+	border-bottom: 1px solid #e4dad6;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+/*social_feed*/
+.flickr_thumb{
+	float: left;
+	margin: 2%;
+	padding: 3px 3px 2px 3px;
+	background-color: #fff;
+	display: block;
+	text-align: center;
+	box-shadow:  0px 3px 3px rgba(43,39,40,.20);
+	-moz-box-shadow: 0px 3px 3px rgba(43,39,40,.20);
+	-webkit-box-shadow:  0px 3px 3px rgba(43,39,40,.20);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=145, Strength=3);
+	transition-property: transform;
+	transition-duration: .25s;
+	-moz-transition-property: transform;
+	-moz-transition-duration: .25s;
+	-webkit-transition-property: transform;
+	-webkit-transition-duration: .25s;
+}
+.flickr_thumb:hover{
+	background-color: #617cbe;
+	transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	-webkit-transform: rotate(6deg);
+}
+
+#twitter_feed li{
+	list-style-type: none;
+	margin: 10px 0;
+	border-bottom: 1px solid #e4dad6;
+	padding-bottom: 10px;
+}
+
+
+
+/*nletter*/
+#nletter_form{
+	margin-top: 10px;
+}
+
+#nletter_form input{
+	color: #7f808d;
+	font-size: 12px;
+	line-height: 15px;
+	padding: 10px;
+	background: transparent url(/wp-content/themes/phpday/img/bg_nletter_input.png) no-repeat left top;
+	float: left;
+	width: 179px;
+	margin-right: 5px;
+	border: none;
+	font-style: italic;
+}
+#nletter_form input:focus{
+	color: #252636;
+	font-style: normal;
+}
+
+#nletter_form .button{
+	margin-top: 2px;
+}
+
+
+
+.back_top{
+	display: none;
+}
+
+
+
+/*Pagine interne*/
+.talk_header dl{
+	margin: 10px 0 20px 0;
+}
+.talk_header dl dt{
+	color: #617cbe;
+	font-size: 14px;
+	font-style: italic;
+	float: left;
+	width: 80px;
+}
+.talk_header dl dd{
+	color: #17213a;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.share{
+	margin-bottom: 30px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+
+.twitter_contact, .url_contact{
+	display: block;
+	height: 18px;
+	width: 20px;
+	text-indent: -99999em;
+	background: transparent url(/wp-content/themes/phpday/img/sprite_talk_icons.png) no-repeat 0 4px;
+}
+.url_contact{
+	background: transparent url(/wp-content/themes/phpday/img/sprite_talk_icons.png) no-repeat 0 -36px;
+}
+
+article footer h6{
+	float: left;
+}
+
+.tags_list li{
+	list-style-type: none;
+	list-style-position: inside;
+	display: inline;
+	padding: 4px 8px 4px 12px;
+	vertical-align: middle;
+	background: #cfd0d8 url(/wp-content/themes/phpday/img/bg_tag.png) no-repeat 4px center;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 0 0 10px;
+}
+.tags_list li a{
+	color: #252636;
+	text-align: center;
+	font-weight: 600;
+}
+.tags_list li:hover{
+	background: #252636 url(/wp-content/themes/phpday/img/bg_tag_hover.png) no-repeat 4px center;;
+}
+.tags_list li:hover a{
+	color: #cfd0d8;
+}
+
+
+.talk_results *{
+	max-width: 100% !important;
+}
+
+
+.talk_excerpt{
+	width: 66%;
+	float: left;
+	margin-right: 1%;
+}
+.speakers_talk dl{
+	float: right;
+	width: 26%;
+}
+.speakers_talk dl dt, .event_edition dl dt{
+	float: left;
+	margin-right: 10px;
+	color: #696a7b;
+	font-size: 12px;
+	font-style: italic;
+	width: 55px;
+}
+
+
+.event_edition dl dd{
+	font-weight: 800;
+}
+
+
+/**/
+#sponsorship_packages .column_4{
+	margin-bottom: 15px;
+}
+
+.package{
+	min-height: 415px;
+}
+.package header{
+	text-align: right;
+	border-bottom: 1px solid #dadeeb;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.package ul{
+	margin-bottom: 20px;
+	min-height: 280px;
+}
+.package ul li{
+	list-style-image: url(/wp-content/themes/phpday/img/bg_list.png);
+	margin-left: 25px;
+	margin-bottom: 8px;
+}
+.package ul.second_row {
+  margin-bottom: 20px;
+  min-height: 170px;
+}
+
+.package h6{
+	padding-top: 8px;
+	border-top: 1px solid #dadeeb;
+	margin-bottom: 10px;
+	font-weight: 800;
+	font-style: normal;
+	color: #17213a;
+}
+.package .button{
+	margin-right: 10px;
+}
+
+/*contact_form*/
+#contact_form label{
+	display: block;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 200;
+	margin-bottom: 5px;
+}
+#contact_form input, #contact_form textarea{
+	line-height: 18px;
+	font-size: 16px;
+	padding: 7px;
+	margin-bottom: 20px;
+	width: 93%;
+	border: 1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: url(/wp-content/themes/phpday/img/bg_input.png) no-repeat left -1px;
+}
+#contact_form textarea{
+	width: 94%;
+}
+
+#contact_form input:focus, #contact_form textarea:focus{
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0 0 10px rgba(155,176,228,.7);
+	-webkit-box-shadow: 0 0 10px rgba(155,176,228,.7);
+	box-shadow: 0 0 10px rgba(155,176,228,.7);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#9bb0e4', Direction=180, Strength=4);
+}
+
+#contact_form .button{
+	margin-bottom: 60px;
+}
+
+
+/*blog*/
+#blog_header{
+	margin-bottom: 20px;
+}
+
+.post{
+	margin-bottom: 70px;
+}
+
+.post header{
+	border-top: 1px solid #b7ada9;
+	border-bottom: 1px solid #e4dad6;
+	padding: 20px 0;
+	margin: 10px 0 20px 0;
+}
+.post header time{
+	font-size: 30px;
+	color: #17213a;
+	text-align: center;
+	font-weight: 200;
+	display: block;
+	padding: 0 10px;
+	border-right: 1px solid #e4dad6;
+	font-style: normal;
+	float: left;
+	margin-right: 2%;
+}
+.post header time strong{
+	font-weight: 900;
+	display: block;
+}
+.post header time em{
+	font-size: 15px;
+	font-style: normal;
+	display: block;
+
+}
+
+.post header h3, .post header h1{
+	float: left;
+	margin-bottom: 0px;
+    width: 70%;
+	font-size: 25px;
+	margin-bottom: 15px;
+	border-bottom: none;
+	padding-bottom: 0;
+	color: #17213a;
+}
+.post header h3 a{
+	color: #17213a;
+}
+.post header h3 a:hover{
+	color: #617cbe;
+}
+
+.post header .share{
+	margin-bottom: 0;
+}
+
+.post footer{
+	clear: both;
+}
+
+.post .button{
+	margin-top: 20px;
+}
+
+/*bottom*/
+#bottom{
+	background: #fafafa url(/wp-content/themes/phpday/img/bg_social.png) repeat-x center top;
+	padding-top: 100px;
+clear: both;
+}
+
+
+/*sidebar*/
+.banner{
+	margin: 1% 0.6% 1% 1%;
+	display: block;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+
+.sidebar .banner{
+	margin-bottom: 10px;
+}
+.banner img{
+	width: 99%;
+	height: auto;
+	border: 1px solid #e7e7ee;
+}
+
+.ribbon{
+	position: relative;
+	float: right;
+	z-index: 10;
+	font-size: 10px;
+	line-height: 22px;
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	height: 22px;
+	padding: 0 7px;
+	font-weight: 600;
+	margin: 4px -4px -40px 0;
+	background-color: #b7bfd4;
+}
+.ribbon.diamond{
+	background-color: #17213a;
+}
+.ribbon.platinum{
+	background-color: #617cbe;
+}
+.ribbon.gold{
+	background-color: #dbb541;
+}
+.ribbon.silver{
+	background-color: #bfbfbf;
+}
+.ribbon.bronze{
+	background-color: #7b7058;
+}
+.ribbon.party, .ribbon.community{
+    background-color: #507b51;
+}
+
+.sidebar .ribbon{
+	width: 54px;
+	margin-top: 6px;
+}
+
+.package .ribbon{
+	float: left;
+	margin: 0 0 0 -16px;
+}
+
+
+#featured_sponsors h4{
+	clear: both;
+}
+
+
+
+/* Schedule */
+table#schedule{
+	width: 98%;
+	margin: 17px 1% 60px 1%;
+	background-color: rgba(255,255,255,.45);
+	border-bottom: 1px solid #404361;
+}
+
+table#schedule thead th{
+	background-color: #7D8FD0;
+	vertical-align: top;
+	border-bottom: 1px solid #404361;
+	border-top: none;
+	font-size: 16px !important;
+	font-weight: 800 !important;
+	line-height: 16px !important;
+	color: #fafafa;
+}
+
+table#schedule thead th h6{
+	margin-bottom: -5px;
+	color: #17213a;
+}
+
+table#schedule th{
+    font-weight: 600;
+}
+
+table#schedule th, table#schedule td {
+	padding: 2% 1%;
+    text-align: left;
+    width: 29%;
+    border-top: 1px dotted #c8c9d0;
+}
+table#schedule th:first-child, table#schedule td:first-child{
+	width: 13%;
+}
+
+table#schedule td h4, table#schedule td h5 {
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+table#schedule td h5 {
+	font-weight: 400;
+	font-size: 13px;
+}
+
+
+table#schedule tr.common_event td{
+	border-top: 1px dotted #c8c9d0;
+}
+
+table#schedule thead th{
+	font-weight: 600;
+	font-size: 14px;
+	text-align: left;
+}
+
+table#schedule td.time{
+	border-right: 1px dotted #a3a6b1;
+}
+
+table#schedule td.break {
+ 	background-color: #e5e5ec;
+    color: #666666;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+table#schedule td.break em {
+    background: url("/wp-content/themes/phpday/img/bg_cup.png") no-repeat scroll left -2px transparent;
+    margin: auto;
+    padding-left: 30px;
+}
+
+table#schedule td.break.lunch em {
+    background: url("/wp-content/themes/phpday/img/bg_lunch.png") no-repeat scroll left -2px transparent;
+    padding-left: 35px;
+}
+
+table#schedule td.break.happy_hour em {
+    background: url("/wp-content/themes/phpday/img/bg_martini.png") no-repeat scroll left -3px transparent;
+    padding-left: 30px;
+}
+table#schedule td.break small {
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+table#schedule td dl{
+    color: #777887;
+    font-size: 12px;
+    font-style: italic;
+}
+
+table#schedule td dl dt{
+	font-weight: 600;
+	float: left;
+	margin-right: 10px;
+}
+
+table#schedule td p{
+	margin-bottom: 5px;
+}
+
+table#schedule td p a{
+	color: #38435E;
+}
+
+table#schedule tr td:nth-child(3) h4 a{
+	color: #404361;
+}
+
+table#schedule tr.common_event td:nth-child(3) h4 a{
+	font-size: 14px;
+	color: #617cbe;
+}
+
+
+
+/*site_footer*/
+#site_footer{
+	color: #fff;
+	padding: 100px 0 30px 0;
+	background: #fafafa url(/wp-content/themes/phpday/img/bg_html.jpg) no-repeat center bottom;
+}
+#site_footer .container{
+	margin-top: 20px;
+}
+#site_footer .container .inside{
+	background: url(/wp-content/themes/phpday/img/bg_footer.png) repeat;
+	color: #17213a;
+	width: 94%;
+	padding: 2%;
+	margin: auto;
+	-moz-box-shadow: 0 0 5px rgba(43,39,40,.20);
+	-webkit-box-shadow:  0 0 5px rgba(43,39,40,.20);
+	box-shadow:  0 0 5px rgba(43,39,40,.20);
+}
+
+#site_footer .reminder .button{
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+#site_footer .half{
+	margin-top: 5px;
+}
+
+#logo_grusp, #logo_php_ftr{
+	display: block;
+	margin-top: 10px;
+	float: right;
+}
+#logo_php_ftr{
+	margin-right: 2%;
+}

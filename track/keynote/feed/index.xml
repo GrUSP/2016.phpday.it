@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Keynote &#8211; phpDay 2016</title>
+	<atom:link href="/track/keynote/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>How Badoo Saved $1M Switching to PHP7</title>
+		<link>/talk/how-badoo-saved-1m-switching-to-php7/</link>
+		<pubDate>Thu, 07 Apr 2016 07:37:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=575</guid>
+		<description><![CDATA[PHP7 is the new generation of the php engine which is dramatically faster than 5.6 and significantly reduces memory consumption. But is it ready for production? Our answer is yes! We started planning our migration in advance and were one of the first companies of our scale to deploy PHP7 to our 1000+ servers which [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>PHP7 is the new generation of the php engine which is dramatically faster than 5.6 and significantly reduces memory consumption. But is it ready for production? Our answer is yes! We started planning our migration in advance and were one of the first companies of our scale to deploy PHP7 to our 1000+ servers which run more then 2M lines of php code.</p>
+<p>During the talk we will be discussing the process of switching over to PHP7 in detail, explaining what difficulties we encountered, how we dealt with them, and what the final results were. We hope this talk will inspire you to join us in «powered by php7» club.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:11 by W3 Total Cache -->

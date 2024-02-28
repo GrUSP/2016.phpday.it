@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Leonardo Proietti &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/leonardo-proietti/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Context Oriented Architecture: put the boundary in the right place.</title>
+		<link>/talk/context-oriented-architecture-put-the-boundary-in-the-right-place/</link>
+		<pubDate>Sat, 12 Mar 2016 00:49:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=552</guid>
+		<description><![CDATA[Last year the hype was on SOA, today is on the Microservices Architecture, what about tomorrow? No one knows. Whatever it is the architecture you want to use, we probably agree that the strategic goal of a tech team is to support a company business, creating customer value. How can we model our software and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Last year the hype was on SOA, today is on the Microservices Architecture, what about tomorrow? No one knows. Whatever it is the architecture you want to use, we probably agree that the strategic goal of a tech team is to support a company business, creating customer value. How can we model our software and create an architecture to achieve that? What we are trying to do at Lendinvest, is using Domain Driven Design to drive the design of our architecture. We are facing a lots of challenges, like: When a bounded context should use an API call to another bounded context? When should we use a queue? How can we share this vision to the rest of the company? In this talk I will share our findings.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Last year the hype was on SOA, today is on the Microservices Architecture, what about tomorrow? No one knows. Whatever it is the architecture you want to use, we probably agree that the strategic goal of a tech team is to support a company business, creating customer value. How can we model our software and create an architecture to achieve that? What we are trying to do at Lendinvest, is using Domain Driven Design to drive the design of our architecture. We are facing a lots of challenges, like: When a bounded context should use an API call to another bounded context? When should we use a queue? How can we share this vision to the rest of the company? In this talk I will share our findings.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:07 by W3 Total Cache -->

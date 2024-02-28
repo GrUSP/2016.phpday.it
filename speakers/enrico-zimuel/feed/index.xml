@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Enrico Zimuel &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/enrico-zimuel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Build middleware applications with Zend Framework 3</title>
+		<link>/talk/build-middleware-applications-with-zend-framework-3/</link>
+		<pubDate>Sat, 12 Mar 2016 00:38:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=539</guid>
+		<description><![CDATA[Zend Framework 3 offers the possibility to write PHP application using a middleware approach. With the usage of the component zend-expressive, combined with the PSR-7 standard, we will show how to build performant, well structured and reusable web applications. We will show how to design and implement simple web applications, APIs and complex web architectures [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;[Zend Framework 3](http://framework.zend.com)/ offers the possibility to write PHP application using a middleware approach. With the usage of the component [zend-expressive](https://github.com/zendframework/zend-expressive), combined with the [PSR-7](http://www.php-fig.org/psr/psr-7/) standard, we will show how to build performant, well structured and reusable web applications. We will show how to design and implement simple web applications, APIs and complex web architectures using dependency injection containers, routing systems and template adapters.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]"><a href="http://framework.zend.com/">Zend Framework 3 </a>offers the possibility to write PHP application using a middleware approach. With the usage of the component <a href="https://github.com/zendframework/zend-expressive">zend-expressive</a>, combined with the <a href="http://www.php-fig.org/psr/psr-7/">PSR-7</a> standard, we will show how to build performant, well structured and reusable web applications. We will show how to design and implement simple web applications, APIs and complex web architectures using dependency injection containers, routing systems and template adapters.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:57 by W3 Total Cache -->

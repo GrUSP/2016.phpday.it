@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Julien Pauli &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/julien-pauli/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>PHP 7 performances from PHP 5</title>
+		<link>/talk/php-7-performances-from-php-5/</link>
+		<pubDate>Sat, 12 Mar 2016 00:35:05 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=536</guid>
+		<description><![CDATA[PHP 7 is incredibly faster than PHP 5. In this talk, we will compare profiling of applications against PHP 7 and PHP 5, and point some scenarios where PHP 7 really outperforms PHP 5. We&#8217;ll then analyze together the reasons of such performance boosts by explaining the low level tricks that have been brought to [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;PHP 7 is incredibly faster than PHP 5. In this talk, we will compare profiling of applications against PHP 7 and PHP 5, and point some scenarios where PHP 7 really outperforms PHP 5. We'll then analyze together the reasons of such performance boosts by explaining the low level tricks that have been brought to PHP 7. New memory manager, better aligned structures and lots of CPU-efficiency tricks are in, we'll explore them all.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">PHP 7 is incredibly faster than PHP 5. In this talk, we will compare profiling of applications against PHP 7 and PHP 5, and point some scenarios where PHP 7 really outperforms PHP 5. We&#8217;ll then analyze together the reasons of such performance boosts by explaining the low level tricks that have been brought to PHP 7. New memory manager, better aligned structures and lots of CPU-efficiency tricks are in, we&#8217;ll explore them all.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:58 by W3 Total Cache -->

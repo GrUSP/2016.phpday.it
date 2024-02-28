@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Michele Orselli &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/michele-orselli/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>The journey to be a solid developer</title>
+		<link>/talk/the-journey-to-be-a-solid-developer/</link>
+		<pubDate>Sat, 12 Mar 2016 00:54:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=558</guid>
+		<description><![CDATA[Being a solid developer doesn’t mean to only know a programming language(s) very well, or mastering the latest cool framework. It’s more than that. It’s not just about code, it’s also about people around you, the community, the tools and approaches. In this closing keynote we will share our personal experiences. And of course the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Being a solid developer doesn’t mean to only know a programming language(s) very well, or mastering the latest cool framework. It’s more than that. It’s not just about code, it’s also about people around you, the community, the tools and approaches. In this closing keynote we will share our personal experiences. And of course the journey is not over yet.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Hopping in clouds: a tale of migration from one cloud provider to another</title>
+		<link>/talk/hopping-in-clouds-a-tale-of-migration-from-one-cloud-provider-to-another/</link>
+		<pubDate>Sat, 12 Mar 2016 00:50:16 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=553</guid>
+		<description><![CDATA[Nowadays there are a lot of cloud providers, with a wide range of offers. Web projects usually have continuously changing needs: what worked well yesterday may not be enough today. These two facts became quite obvious for us in the last year while migrating a PHP application from Rackspace to Amazon. In this session I’d [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Nowadays there are a lot of cloud providers, with a wide range of offers. Web projects usually have continuously changing needs: what worked well yesterday may not be enough today. These two facts became quite obvious for us in the last year while migrating a PHP application from Rackspace to Amazon. In this session I\u2019d like to share this experience highlighting infrastructure and code evolution, migration steps, cost analisys, issues.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Nowadays there are a lot of cloud providers, with a wide range of offers. Web projects usually have continuously changing needs: what worked well yesterday may not be enough today. These two facts became quite obvious for us in the last year while migrating a PHP application from Rackspace to Amazon. In this session I’d like to share this experience highlighting infrastructure and code evolution, migration steps, cost analisys, issues.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:02 by W3 Total Cache -->

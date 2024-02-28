@@ -1,0 +1,189 @@
+/*
+	All devices @ 580 resolution or lower
+*/
+
+/*grid*/
+div#container, div.container {
+	max-width: 560px;
+}
+
+
+body{
+	background: transparent url(/wp-content/themes/phpday/img/bg_body_internal.jpg) repeat-x right 10px;
+}
+body#home{
+	background: transparent url(/wp-content/themes/phpday/img/bg_body.jpg) repeat-x 47% top;
+}
+
+
+
+/*site_header*/
+#toolbar{
+	height: 50px;
+}
+/*@media screen and (orientation: portrait){	
+	a#main_logo{
+		width: 30%;
+	}
+}*/
+
+#past_editions{
+	display: none;
+}
+
+#lang{
+	width: 30%;
+	margin: 10px 2% 0 0;
+}
+	
+#lang ul{
+	width: 100%;
+}
+#lang ul li{
+	margin: 0 6%;
+	float: right;
+}
+
+
+
+#site_header .reminder{
+	display: none;
+}
+
+
+/*claim*/
+#claim h2{
+	font-size: 30px;
+	line-height: 36px;
+}
+
+#claim .reminder{
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 28px;
+	margin-top: 15px;
+	background: none;
+	width: 98%;
+}
+#claim .reminder .button.big{	
+	margin-top: 10px;
+}
+
+
+
+/*social*/
+#social .centered{
+	width: auto;
+} 
+#social .centered h3{
+	float: none;
+	text-align: center;
+}
+#social .centered ul{
+	float: none;
+	width: 240px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+#social .centered ul li{
+	padding-bottom: 15px;
+}
+
+
+/**/
+.main{	
+	width: 98%;
+}
+
+#content .column_6, #content .column_4,  #bottom .column_4{
+	width: 98%;
+	float: none;
+	clear: both !important;
+}
+
+#sponsorship_packages .column_4{
+	width: 96%;
+	float: right;
+}
+
+
+#sponsors .banner, #media_partner .banner{
+	width: 48%;	
+}
+
+.sidebar{	
+	float: none;
+	width: 98%;
+}
+#featured_sponsors{
+	clear: both;
+}
+
+#featured_sponsors a.banner{
+	width: 90%;
+	float: none;
+}
+
+#venue{
+	background: transparent url(/wp-content/themes/phpday/img/separator_thin.png) no-repeat center bottom;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+#news .button.right{
+	float: left!important;
+}
+
+#social_feed .column_4{	
+	margin-bottom: 40px;
+}
+
+
+
+#nletter{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e4dad6;
+}
+
+.back_top{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 20px;
+}
+
+
+/*site_footer*/
+#site_footer{
+	padding: 30px 0 30px 0;
+}
+
+#site_footer .column_8{
+	width: 60%;
+}
+#site_footer .column_8 .button{	
+	margin-left: 0;
+}
+#logo_grusp, #logo_php_ftr{
+	width: 2	0%;
+	margin: 0 1% 0 0;
+}
+
+
+/*internal pages*/
+.package{
+	min-height: 0px;
+}
+.package ul{
+	min-height: 0px;
+}
+
+
+
+.column_3.event_edition{
+	width: 31%;
+}

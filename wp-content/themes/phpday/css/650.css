@@ -1,0 +1,96 @@
+/*
+	All devices @ 650 resolution or lower
+*/
+
+/*grid*/
+div#container, div.container {
+	max-width: 610px;
+}
+
+
+/*site_header*/
+
+#site_header .reminder{
+	width: 60%;
+}
+
+
+#site_menu{
+	margin: -10px 0 0 0;
+	padding: 0;
+	width: 98%;
+}
+
+
+#site_menu ul{
+	margin: 0 0 0 0;
+	float: right;
+	width: 100%;
+}
+
+/*claim*/
+
+/*social*/
+
+
+.main{	
+	width: 98%;
+}
+
+.sidebar{	
+	float: none;
+	width: 98%;
+}
+
+
+
+#featured_sponsors{
+	clear: both;
+}
+
+#featured_sponsors a.banner{
+	width: 48%;
+	float: left;
+}
+
+
+#nletter{
+	margin-bottom: 30px;
+}
+
+
+
+/*pagine interne*/
+#verona_nord, #verona_sud, #airport, #main_hotel, #bb_1{
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #fff;
+}
+
+
+#sponsorship_packages .column_4{
+	width: 48%;
+}
+
+.column_3.call_4_sponsor{
+	width: 98%;
+}
+.column_3.call_4_sponsor .inside .text{	
+	float: left;
+	margin-right: 4%;
+}
+.column_3.call_4_sponsor .inside .text h3{	
+	margin-bottom: 0;
+}
+.column_3.call_4_sponsor .inside .button{	
+	float: left;
+	margin-top: 25px;
+}
+	
+.column_3.php_edition{
+	width: 31%;
+	margin-bottom: 20px;
+}
+
+
+
+

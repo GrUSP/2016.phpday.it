@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Paul Dragoonis &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/paul-dragoonis/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Dockerizing your PHP CI Pipelines</title>
+		<link>/talk/dockerizing-your-php-ci-pipelines/</link>
+		<pubDate>Mon, 09 May 2016 12:31:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=593</guid>
+		<description><![CDATA[This talk is intermediate level and should have a bit of something for everyone whether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger. I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>This talk is intermediate level and should have a bit of something for everyone whether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger.</p>
+<p>I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating from traditional pipelines to docker ones. I will share my experiences, tips &amp; tricks, lessons learned on my journey into docker land.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Unleashing Frameworks</title>
+		<link>/talk/unleashing-frameworks/</link>
+		<pubDate>Sat, 12 Mar 2016 00:40:26 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=541</guid>
+		<description><![CDATA[PHP application development is becoming more flexible than ever but many of you may still be choosing a single framework for all of the features, instead of ones that best match your application. With the PPI Framework Engine you can compose parts of multiple frameworks that allow you to customise your software to suit and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;PHP application development is becoming more flexible than ever but many of you may still be choosing a single framework for all of the features, instead of ones that best match your application. With the PPI Framework Engine you can compose parts of multiple frameworks that allow you to customise your software to suit and grow with you and your needs. It will allow you to make framework based decisions on a per-feature basis instead of a per-application basis. In this talk I am going to demonstrate a framework delivery engine that lets you be in charge. Additionally, I will show you how you can modernise/refactor legacy systems or CMS\u2019s (i.e: WordPress) by utilising your PPI app as a service container within them.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">PHP application development is becoming more flexible than ever but many of you may still be choosing a single framework for all of the features, instead of ones that best match your application. With the PPI Framework Engine you can compose parts of multiple frameworks that allow you to customise your software to suit and grow with you and your needs. It will allow you to make framework based decisions on a per-feature basis instead of a per-application basis. In this talk I am going to demonstrate a framework delivery engine that lets you be in charge. Additionally, I will show you how you can modernise/refactor legacy systems or CMS’s (i.e: WordPress) by utilising your PPI app as a service container within them.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:49 by W3 Total Cache -->

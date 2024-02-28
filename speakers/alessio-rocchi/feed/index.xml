@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Alessio Rocchi &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/alessio-rocchi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Automate PHP environment deploy with Vagrant</title>
+		<link>/talk/automate-php-environment-deploy-with-vagrant/</link>
+		<pubDate>Mon, 11 Apr 2016 20:42:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=577</guid>
+		<description><![CDATA[If you manage virtual machines on a daily basis, Vagrant  might be a powerful tool  that makes your work more agile and easier. Vagrant is a tool which automates all the configuration tasks required to your web applications: this way, you can focus on developing and distributing  your app, with no concern for environment configuration. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span lang="EN-US">If you manage virtual machines on a daily basis, Vagrant  mig</span>ht be a powerful tool  that makes your work more agile and easier.<u></u><u></u></p>
+<p>Vagrant is a tool which automates all the configuration tasks required to your web applications: this way, you can focus on developing and distributing  your app, with no concern for environment configuration.<u></u><u></u></p>
+<p><span lang="EN-US">In this talk we will illustrate how to setup a super fast PHP development box,  with everything you may need.<u></u><u></u></span></p>
+<p><span lang="EN-US"><u></u> </span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:50 by W3 Total Cache -->

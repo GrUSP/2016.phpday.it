@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Talks &#8211; phpDay 2016</title>
+	<atom:link href="/talk/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Dockerizing your PHP CI Pipelines</title>
+		<link>/talk/dockerizing-your-php-ci-pipelines/</link>
+		<pubDate>Mon, 09 May 2016 12:31:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=593</guid>
+		<description><![CDATA[This talk is intermediate level and should have a bit of something for everyone whether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger. I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>This talk is intermediate level and should have a bit of something for everyone whether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger.</p>
+<p>I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating from traditional pipelines to docker ones. I will share my experiences, tips &amp; tricks, lessons learned on my journey into docker land.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Automate PHP environment deploy with Vagrant</title>
+		<link>/talk/automate-php-environment-deploy-with-vagrant/</link>
+		<pubDate>Mon, 11 Apr 2016 20:42:36 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=577</guid>
+		<description><![CDATA[If you manage virtual machines on a daily basis, Vagrant  might be a powerful tool  that makes your work more agile and easier. Vagrant is a tool which automates all the configuration tasks required to your web applications: this way, you can focus on developing and distributing  your app, with no concern for environment configuration. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span lang="EN-US">If you manage virtual machines on a daily basis, Vagrant  mig</span>ht be a powerful tool  that makes your work more agile and easier.<u></u><u></u></p>
+<p>Vagrant is a tool which automates all the configuration tasks required to your web applications: this way, you can focus on developing and distributing  your app, with no concern for environment configuration.<u></u><u></u></p>
+<p><span lang="EN-US">In this talk we will illustrate how to setup a super fast PHP development box,  with everything you may need.<u></u><u></u></span></p>
+<p><span lang="EN-US"><u></u> </span></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How Badoo Saved $1M Switching to PHP7</title>
+		<link>/talk/how-badoo-saved-1m-switching-to-php7/</link>
+		<pubDate>Thu, 07 Apr 2016 07:37:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=575</guid>
+		<description><![CDATA[PHP7 is the new generation of the php engine which is dramatically faster than 5.6 and significantly reduces memory consumption. But is it ready for production? Our answer is yes! We started planning our migration in advance and were one of the first companies of our scale to deploy PHP7 to our 1000+ servers which [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>PHP7 is the new generation of the php engine which is dramatically faster than 5.6 and significantly reduces memory consumption. But is it ready for production? Our answer is yes! We started planning our migration in advance and were one of the first companies of our scale to deploy PHP7 to our 1000+ servers which run more then 2M lines of php code.</p>
+<p>During the talk we will be discussing the process of switching over to PHP7 in detail, explaining what difficulties we encountered, how we dealt with them, and what the final results were. We hope this talk will inspire you to join us in «powered by php7» club.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Evolution of Web Application Architecture</title>
+		<link>/talk/evolution-of-web-application-architecture/</link>
+		<pubDate>Wed, 30 Mar 2016 07:33:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=570</guid>
+		<description><![CDATA[Web application architectures evolved more and more into service-orientation. A lot of different solutions for niche problems like queueing systems and NoSQL databases exist by now. I will show that we weren&#8217;t so wrong to walk this path and what we can learn from this for future system architectures.]]></description>
+				<content:encoded><![CDATA[<p>Web application architectures evolved more and more into service-orientation. A lot of different solutions for niche problems like queueing systems and NoSQL databases exist by now. I will show that we weren&#8217;t so wrong to walk this path and what we can learn from this for future system architectures.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Deploying PHP 7</title>
+		<link>/talk/deploying-php-7/</link>
+		<pubDate>Sat, 12 Mar 2016 07:23:12 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=559</guid>
+		<description><![CDATA[PHP 7 is here and it brings drastic performance improvements along with new features. Learn how to migrate a large codebase and identify potential BC breaks and how to correctly deploy and tune PHP 7 for optimal performance. Topics covered will include static analysis, opcache tuning, and os-level issues such as huge pages and NUMA zones.]]></description>
+				<content:encoded><![CDATA[<div>PHP 7 is here and it brings drastic performance improvements along with new features. Learn how to migrate a large codebase and identify potential BC breaks and how to correctly deploy and tune PHP 7 for optimal performance.</div>
+<div>Topics covered will include static analysis, opcache tuning, and os-level issues such as huge pages and NUMA zones.</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The journey to be a solid developer</title>
+		<link>/talk/the-journey-to-be-a-solid-developer/</link>
+		<pubDate>Sat, 12 Mar 2016 00:54:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=558</guid>
+		<description><![CDATA[Being a solid developer doesn’t mean to only know a programming language(s) very well, or mastering the latest cool framework. It’s more than that. It’s not just about code, it’s also about people around you, the community, the tools and approaches. In this closing keynote we will share our personal experiences. And of course the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Being a solid developer doesn’t mean to only know a programming language(s) very well, or mastering the latest cool framework. It’s more than that. It’s not just about code, it’s also about people around you, the community, the tools and approaches. In this closing keynote we will share our personal experiences. And of course the journey is not over yet.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>TDD with PhpSpec</title>
+		<link>/talk/tdd-with-phpspec/</link>
+		<pubDate>Sat, 12 Mar 2016 00:53:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=557</guid>
+		<description><![CDATA[PhpSpec is a SpecBDD tool that enables you to use a TDD workflow that can transform the way you write PHP. In this session we will look at the TDD workflow and see how PhpSpec can be used to speed up your development; add regression safety, and improve your object-oriented design.]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;PhpSpec is a SpecBDD tool that enables you to use a TDD workflow that can transform the way you write PHP. In this session we will look at the TDD workflow and see how PhpSpec can be used to speed up your development; add regression safety, and improve your object-oriented design.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">PhpSpec is a SpecBDD tool that enables you to use a TDD workflow that can transform the way you write PHP. In this session we will look at the TDD workflow and see how PhpSpec can be used to speed up your development; add regression safety, and improve your object-oriented design.</span></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>PHP 7 compliance workshop</title>
+		<link>/talk/php-7-compliance-workshop/</link>
+		<pubDate>Sat, 12 Mar 2016 00:53:11 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=556</guid>
+		<description><![CDATA[When migrating, we often need to review old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools, we&#8217;ll review the issues, diagnose criticality, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;When migrating, we often need to review old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks. All tools will be Open Source, and ready to follow you home for more validation.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">When migrating, we often need to review old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools, we&#8217;ll review the issues, diagnose criticality, select the best fixes and prioritize the tasks. All tools will be Open Source, and ready to follow you home for more validation.</span></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>You Attended Talk: an introduction to event sourcing</title>
+		<link>/talk/you-attended-talk-an-introduction-to-event-sourcing/</link>
+		<pubDate>Sat, 12 Mar 2016 00:52:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=555</guid>
+		<description><![CDATA[Imagine for a moment you work for a large online retailer specialising in household goods. One morning, the head of marketing comes to you and says &#8220;I&#8217;ve had this great idea we&#8217;re going to send discount vouchers to anyone who&#8217;s changed their address in the past 3 months; people who&#8217;ve recently moved are more likely [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Imagine for a moment you work for a large online retailer specialising in household goods. One morning, the head of marketing comes to you and says \&quot;I've had this great idea we're going to send discount vouchers to anyone who's changed their address in the past 3 months; people who've recently moved are more likely to be buying new furniture. Could you retrieve a list of all these customers?\&quot; You explain to him your systems only store a customers current address and doesn't record when it was last changed, a new feature is added to the backlog and the head of marketing leaves a little disappointed. What if you could build a system which was able to answer this kind of question without knowing it up front? A possible solution is to use event sourcing, being able to go back to any previous state of your data is just one advantage of using event sourcing in your application. Event sourcing is a total paradigm shift from the more traditional model of storing an application's current state and can appear to be a very unnatural way to think about and build a system. In this talk I'm going to show you examples of why event sourcing can be a superior model and how to go about building an event sourced system in PHP.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Imagine for a moment you work for a large online retailer specialising in household goods. One morning, the head of marketing comes to you and says &#8220;I&#8217;ve had this great idea we&#8217;re going to send discount vouchers to anyone who&#8217;s changed their address in the past 3 months; people who&#8217;ve recently moved are more likely to be buying new furniture. Could you retrieve a list of all these customers?&#8221; You explain to him your systems only store a customers current address and doesn&#8217;t record when it was last changed, a new feature is added to the backlog and the head of marketing leaves a little disappointed. What if you could build a system which was able to answer this kind of question without knowing it up front? A possible solution is to use event sourcing, being able to go back to any previous state of your data is just one advantage of using event sourcing in your application. Event sourcing is a total paradigm shift from the more traditional model of storing an application&#8217;s current state and can appear to be a very unnatural way to think about and build a system. In this talk I&#8217;m going to show you examples of why event sourcing can be a superior model and how to go about building an event sourced system in PHP.</span></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Being Functional in PHP</title>
+		<link>/talk/being-functional-in-php/</link>
+		<pubDate>Sat, 12 Mar 2016 00:51:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=554</guid>
+		<description><![CDATA[Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from functional programming. I\u2019ll give you a crash course in Erlang, a pragmatic functional language to make you feel familiar with the functional paradigm. By comparing code samples between Erlang and PHP, you\u2019ll find out how you can employ functional programming in your PHP applications where appropriate. You\u2019ll see that functional programming is nothing to be scared of. On the contrary, understanding its concepts broadens your programming horizon and provides you with valuable solutions to your problems.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from functional programming. I’ll give you a crash course in Erlang, a pragmatic functional language to make you feel familiar with the functional paradigm. By comparing code samples between Erlang and PHP, you’ll find out how you can employ functional programming in your PHP applications where appropriate. You’ll see that functional programming is nothing to be scared of. On the contrary, understanding its concepts broadens your programming horizon and provides you with valuable solutions to your problems.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:45 by W3 Total Cache -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cfp &#8211; phpDay 2016</title>
+	<atom:link href="/tag/cfp/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>CFP closes in two weeks! Hurry Up!</title>
+		<link>/2016/01/cfp-closes-in-two-weeks-hurry-up/</link>
+		<comments>/2016/01/cfp-closes-in-two-weeks-hurry-up/#respond</comments>
+		<pubDate>Fri, 15 Jan 2016 11:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[cfp]]></category>
+		<category><![CDATA[tickets]]></category>
+
+		<guid isPermaLink="false">http://2013.phpday.it/?p=103</guid>
+		<description><![CDATA[&#160; Remember that the CFP will end on Jan 31st, so hurry up and don’t miss the chance to be part of phpDay 2016! Please remember that the phpDay is an international conference, so session proposals must be in English. Tickets are available, get one at the discounted early bird price until they last! Do [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>Remember that the <a title="phpDay 2014 CFP" href="http://cfp.phpday.it/">CFP will end on Jan 31st</a>, so hurry up and don’t miss the chance to be part of phpDay 2016! Please remember that the phpDay is an international conference, so session proposals must be in English.</p>
+<p>Tickets are available, get one at the discounted early bird price until they last!</p>
+<p>Do you want to be part of phpDay 2016 as a sponsor? Take a look to our <a title="phpDay 2014 sponsorship options" href="/sponsor/">sponsorship options</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/01/cfp-closes-in-two-weeks-hurry-up/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:09 by W3 Total Cache -->

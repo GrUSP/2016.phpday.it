@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bastian Hofmann &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/bastian-hofmann/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>HTTP/2.0 101 Introduction</title>
+		<link>/talk/http2-0-101-introduction/</link>
+		<pubDate>Sat, 12 Mar 2016 00:45:46 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=547</guid>
+		<description><![CDATA[After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk I&#8217;ll explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk I'll explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this I'll show what HTTP/2.0 is all about, what it changes and how it can help your application's performance.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">After 16 years a new version of the HTTP protocol has now been finalized and wide support in browsers and web servers is coming quickly. In this talk I&#8217;ll explain how HTTP and browsers work in general and what you currently have to do to make your application as fast as possible. Based on this I&#8217;ll show what HTTP/2.0 is all about, what it changes and how it can help your application&#8217;s performance.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:06 by W3 Total Cache -->

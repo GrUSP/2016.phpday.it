@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>grusp &#8211; phpDay 2016</title>
+	<atom:link href="/tag/grusp/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Aaaaand we&#8217;re back! Again!</title>
+		<link>/2016/01/aaaaand-were-back-again/</link>
+		<comments>/2016/01/aaaaand-were-back-again/#respond</comments>
+		<pubDate>Mon, 11 Jan 2016 09:30:31 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[news]]></category>
+		<category><![CDATA[grusp]]></category>
+		<category><![CDATA[phpday]]></category>
+
+		<guid isPermaLink="false">http://2013.phpday.it.122.149-5-47.groveurl.com/?p=1</guid>
+		<description><![CDATA[The phpDay 2016 organization is officially started! The conference will take place in Verona (same hotel of the previous years) from 13th to 14th May 2016. The Call for Papers and Call for Sponsors are open. Meanwhile you can contact us on twitter or take a look at our Vimeo Channels with the videos of the past edition.]]></description>
+				<content:encoded><![CDATA[<p>The <strong>phpDay 2016</strong> organization is officially started! The conference will take place in Verona (same hotel of the previous years) from 13th to 14th May 2016. The <a title="Be a speaker!" href="http://cfp.grusp.org/phpday/">Call for Papers</a> and <a title="Be a Sponsor!" href="/sponsor/">Call for Sponsors</a> are open. Meanwhile you can contact us on <a href="http://twitter.com/phpday">twitter</a> or take a look at our <a href="http://vimeo.com/grusp/channels">Vimeo Channels</a> with the <a href="http://vimeo.com/channels/phpday">videos of the past edition</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2016/01/aaaaand-were-back-again/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:10 by W3 Total Cache -->

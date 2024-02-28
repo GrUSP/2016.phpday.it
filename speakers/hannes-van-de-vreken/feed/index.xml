@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hannes Van De Vreken &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/hannes-van-de-vreken/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Package development</title>
+		<link>/talk/package-development/</link>
+		<pubDate>Sat, 12 Mar 2016 00:41:33 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=542</guid>
+		<description><![CDATA[Registering your new awesome package to packagist is easy. But what about maintainability? What dependencies should you avoid? Have you considered reducing download size? How will you keep your users up to date with changes in newer versions? How do you best handle releases? How do you manage your package to behave in an optimal [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Registering your new awesome package to packagist is easy. But what about maintainability? What dependencies should you avoid? Have you considered reducing download size? How will you keep your users up to date with changes in newer versions? How do you best handle releases? How do you manage your package to behave in an optimal way both in other people's production environment as in your local package development environment? What are virtual packages? These and many other tips for medium to high quality packages are included in this talk.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Registering your new awesome package to packagist is easy. But what about maintainability? What dependencies should you avoid? Have you considered reducing download size? How will you keep your users up to date with changes in newer versions? How do you best handle releases? How do you manage your package to behave in an optimal way both in other people&#8217;s production environment as in your local package development environment? What are virtual packages? These and many other tips for medium to high quality packages are included in this talk.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:49 by W3 Total Cache -->

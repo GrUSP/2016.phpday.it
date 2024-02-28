@@ -1,0 +1,66 @@
+/*
+	All devices @ 800 resolution or lower
+*/
+
+html{
+	-webkit-text-size-adjust: none;
+}
+
+/*grid*/
+div#container, div.container {
+	max-width: 720px;
+}
+
+
+/*site_header*/
+#main_logo{
+	width: 23%;
+	margin-top: -40px;
+}
+
+
+#site_menu{
+	width: 100%;
+}
+#site_menu ul li{
+	width: 30%;
+}
+/*claim*/
+#claim h2{
+	padding: 0 0 0 0;
+}
+
+
+/**/
+.call_4_paper .text{
+	width: 98%;
+}
+.call_4_paper .button{
+	float: left;
+	margin-top: 12px;
+}
+
+
+/*pagine interne*/
+.speakers_talk dl dt{
+	float: none;
+	margin-right: 0;
+}
+.speakers_talk dl dd{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.header_h1 .addthis_toolbox{
+	float: left;
+	margin-left: 0;
+}
+
+
+#social_feed .column_4{
+	width: 48%;
+}
+#social_feed .column_4#flickr_gallery{
+	width: 98%;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>David de Boer &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/david-de-boer/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Being Functional in PHP</title>
+		<link>/talk/being-functional-in-php/</link>
+		<pubDate>Sat, 12 Mar 2016 00:51:15 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=554</guid>
+		<description><![CDATA[Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from functional programming. I\u2019ll give you a crash course in Erlang, a pragmatic functional language to make you feel familiar with the functional paradigm. By comparing code samples between Erlang and PHP, you\u2019ll find out how you can employ functional programming in your PHP applications where appropriate. You\u2019ll see that functional programming is nothing to be scared of. On the contrary, understanding its concepts broadens your programming horizon and provides you with valuable solutions to your problems.&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">Functional programming, though far from new, has gained much traction recently. Functional programming characteristics have started to appear in the PHP world, too. Microframeworks such as Silex and Slim, middleware architectures such as Stack and even standards such as PSR-7 rely on concepts such as lambdas, referential transparency and immutability, all of which come from functional programming. I’ll give you a crash course in Erlang, a pragmatic functional language to make you feel familiar with the functional paradigm. By comparing code samples between Erlang and PHP, you’ll find out how you can employ functional programming in your PHP applications where appropriate. You’ll see that functional programming is nothing to be scared of. On the contrary, understanding its concepts broadens your programming horizon and provides you with valuable solutions to your problems.</span></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:05:07 by W3 Total Cache -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Steve Maraspin &#8211; phpDay 2016</title>
+	<atom:link href="/speakers/steve-maraspin/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The international PHP Conference</description>
+	<lastBuildDate>Mon, 13 Feb 2017 18:00:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.2</generator>
+	<item>
+		<title>Beyond PSR-7: The magical middleware tour</title>
+		<link>/talk/beyond-psr-7-the-magical-middleware-tour/</link>
+		<pubDate>Sat, 12 Mar 2016 00:36:20 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		
+		<guid isPermaLink="false">/?post_type=talk&#038;p=537</guid>
+		<description><![CDATA[PSR-7 has made its way to become a PHP standard. The Middleware word – at the same time – has become one of the most prominent buzzwords of our ecosystem. Are we facing a bust here? Wasn&#8217;t PHP invented for the web? So, what is this fuss all about, if we&#8217;re actually only dealing with [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span data-sheets-value="[null,2,&quot;PSR-7 has made its way to become a PHP standard. The Middleware word \u2013\nat the same time \u2013 has become one of the most prominent buzzwords of\nour ecosystem. Are we facing a bust here? Wasn't PHP invented for the\nweb? So, what is this fuss all about, if we're actually only dealing\nwith good old HTTP requests/responses?\n\nIn this talk Marco and Steve will explain the practical implications\nof PSR-7, introducing its semantics and explaining how it is already\nshaping the present and future of many modern frameworks and tools.\n\nThey'll do this through practical examples: they'll dissect an entire\nHTTP request/response life cycle, and analyze how it gets handled by\nZend Expressive, one modern (micro)framework which allows us to write\nPSR-7 middleware applications for the web. They'll also take into\naccount other well known (IE Slim) and emerging implementations(*), so\nto be able to make some comparisons, but also to see how a whole set\nof different components all speak HTTP the same way.\n\nBy attending this talk you can expect to become able to understand and\nalso build a modern, performing and well-structured application,\nthrough the use of middleware. And yeah ...you get a new buzzword\nbadge too!&quot;]" data-sheets-userformat="[null,null,9089,[null,0],null,null,null,null,null,null,0,4,0,null,null,null,8]">PSR-7 has made its way to become a PHP standard. The Middleware word –<br />
+at the same time – has become one of the most prominent buzzwords of<br />
+our ecosystem. Are we facing a bust here? Wasn&#8217;t PHP invented for the<br />
+web? So, what is this fuss all about, if we&#8217;re actually only dealing<br />
+with good old HTTP requests/responses?</span></p>
+<p>In this talk Marco and Steve will explain the practical implications<br />
+of PSR-7, introducing its semantics and explaining how it is already<br />
+shaping the present and future of many modern frameworks and tools.</p>
+<p>They&#8217;ll do this through practical examples: they&#8217;ll dissect an entire<br />
+HTTP request/response life cycle, and analyze how it gets handled by<br />
+Zend Expressive, one modern (micro)framework which allows us to write<br />
+PSR-7 middleware applications for the web. They&#8217;ll also take into<br />
+account other well known (IE Slim) and emerging implementations(*), so<br />
+to be able to make some comparisons, but also to see how a whole set<br />
+of different components all speak HTTP the same way.</p>
+<p>By attending this talk you can expect to become able to understand and<br />
+also build a modern, performing and well-structured application,<br />
+through the use of middleware. And yeah &#8230;you get a new buzzword<br />
+badge too!</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using apc
+
+ Served from: 2016.phpday.it @ 2017-02-13 19:04:49 by W3 Total Cache -->
